@@ -22,7 +22,7 @@ Gem HTTParty pode ser uma ajuda incrível para trabalhar com as requisições HT
 
 # Passo de um clone no projeto
 
-'$ git clone https://github.com/anadsonpassos/cep_vr.git' clona o projeto do servidor
+'$ git clone https://github.com/anadsonpassos/Automation_test_VR.git' clona o projeto do servidor
 
 # Passo para entrar na pasta do projeto
 
