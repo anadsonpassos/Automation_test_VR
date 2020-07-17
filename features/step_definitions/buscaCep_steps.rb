@@ -6,7 +6,7 @@ end
 Quando("obter os dados do endereço solicitado") do
     @resultCep = @cep
     expect(@requestConsulta['cep']).to eq(@resultCep)
-    puts @requestConsulta
+    log @requestConsulta
 end
 
 Então("o sistema retorna status de sucesso {int}") do |sucesso|
@@ -14,7 +14,7 @@ Então("o sistema retorna status de sucesso {int}") do |sucesso|
 end
 
 Então("exibo o código de retorno do IBGE do cep consultado") do
-    puts(@requestConsulta["ibge"])
+    log(@requestConsulta["ibge"])
 end
 
 Então("o sistema retorna status de erro {int}") do |erro|
